@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AdjacentMaxDistance_Test/obj
+/.vs
+/AdjacentMaxDistance_Test/bin/Debug
+/AdjacentMaxDistance_Test/Properties
