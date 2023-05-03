@@ -4,10 +4,6 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Adjacent Max Distance: " + Calculator.FindAdjacentMaxDistance(new int[] { 0, 3, 3, 7, 5, 3, 11, 1 }));
-            Console.WriteLine("Adjacent Max Distance: " + Calculator.FindAdjacentMaxDistance(new int[] { 0, 3, 3, 12, 5, 3, 7, 1 }));
-            Console.ReadLine();
-
             // Easier way
             // List<int> ListOfNumbers = new(args.Select(item => (Convert.ToInt32(item))));
 
@@ -33,8 +29,7 @@
                 }
             }
 
-            // Console.WriteLine("Adjacent Max Distance: " + Calculator.FindAdjacentMaxDistance(arrayOfNumbers));
-
+            Console.WriteLine("Adjacent Max Distance: " + Calculator.FindAdjacentMaxDistance(arrayOfNumbers));
             Console.ReadLine();
         }
     }
